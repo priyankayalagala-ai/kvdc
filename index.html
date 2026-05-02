@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Smart Mobile</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Product Page</title>
+    <style>
+        body { margin:0; font-family: Arial; }
+        header {
+            background:black;
+            color:white;
+            padding:10px;
+            text-align:center;
+        }
+        .container { display:flex; }
+        .sidebar {
+            width:200px;
+            background:lightgray;
+            padding:15px;
+        }
+        .content { padding:20px; }
+    </style>
 </head>
-
 <body>
 
-    <!-- Header -->
-    <div class="header">
-        <h1>My Mobile Store</h1>
-    </div>
+<header>
+    <h2>My Shopping Site</h2>
+</header>
 
-    <!-- Sidebar -->
+<div class="container">
+
     <div class="sidebar">
-        <ul>
-            <li>Home</li>
-            <li>Mobiles</li>
-            <li>Contact</li>
-        </ul>
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
     </div>
 
-    <!-- Content -->
     <div class="content">
-        <h2>Product Name: Smart Mobile</h2>
+        <img src="shopping.webp" width="200">
 
-        <img src="https://via.placeholder.com/200" class="product-img" alt="Mobile Image">
+        <h2>Product Name: Smart Watch</h2>
 
-        
+        <p>Description: This is a stylish and modern smartwatch.</p>
 
-        <h3>Price: ₹15,999</h3>
+        <h3>Price: ₹1999</h3>
     </div>
+
+</div>
 
 </body>
 </html>
